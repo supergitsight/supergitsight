@@ -111,7 +111,9 @@ This roadmap outlines our planned features and improvements for SuperGitSight. W
 - Certification tracking
 
 ### Community Requests
+
 We track feature requests from our community. Popular requests include:
+
 - Batch profile analysis
 - Export to PDF/CSV/Excel
 - Scheduled reports
@@ -123,6 +125,7 @@ We track feature requests from our community. Popular requests include:
 ## 📊 Progress Tracking
 
 ### Completed ✅
+
 - Initial KCRISMAG algorithm
 - Initial ACID algorithm
 - Basic dashboard
@@ -140,6 +143,7 @@ We track feature requests from our community. Popular requests include:
 - Security insights
 
 ### Current Sprint
+
 - UI/UX improvements
 - Performance optimizations
 - Bug fixes and stability
@@ -163,13 +167,15 @@ We value community input! You can contribute to our roadmap by:
 - **Future**: Features planned for later releases
 - **Ideas**: Features under consideration
 
-Timelines are estimates and subject to change based on priorities, resources, and user feedback.
+Timelines are estimates and subject to change based on priorities,
+resources, and user feedback.
 
 ## 🔄 Updates
 
 This roadmap is updated regularly. Last updated: November 2025
 
 For the latest updates, follow our:
+
 - [GitHub Repository](https://github.com/supergitsight/supergitsight)
 - [Changelog](../docs/changelog.md)
 - [Website](https://supergitsight.xyz)

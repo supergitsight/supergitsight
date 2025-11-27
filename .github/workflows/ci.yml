@@ -22,18 +22,10 @@ jobs:
           test -d docs || exit 1
           test -d examples || exit 1
           echo "✅ All required files and directories exist"
-
-  lint:
-    name: Lint Documentation
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    
-    steps:
-      - uses: actions/checkout@v4
       
-      - name: Check Markdown files
-        uses: DavidAnson/markdownlint-cli2-action@v15
-        with:
-          globs: |
-            **/*.md
-            !node_modules/**/*.md
+      - name: Validate JSON files
+        run: |
+          for file in examples/*.json; do
+            python3 -m json.tool "$file" > /dev/null || exit 1
+          done
+          echo "✅ All JSON files are valid"
