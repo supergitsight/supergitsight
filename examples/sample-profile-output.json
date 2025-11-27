@@ -1,0 +1,206 @@
+{
+  "user": {
+    "login": "coderomm",
+    "name": "Om Sharma",
+    "bio": "Building SuperGitSight - Data-driven GitHub profile insights",
+    "avatarUrl": "https://github.com/coderomm.png",
+    "createdAt": "2020-01-15T10:00:00Z",
+    "location": "India",
+    "company": "SuperGitSight",
+    "websiteUrl": "https://supergitsight.xyz",
+    "twitterUsername": "supergitsight",
+    "followers": {
+      "totalCount": 1000
+    },
+    "following": {
+      "totalCount": 500
+    },
+    "repositories": {
+      "totalCount": 42
+    },
+    "contributionsCollection": {
+      "totalCommitContributions": 1500,
+      "totalPullRequestContributions": 200,
+      "totalIssueContributions": 100,
+      "totalPullRequestReviewContributions": 50,
+      "totalRepositoriesWithContributedCommits": 25,
+      "contributionCalendar": {
+        "totalContributions": 1850
+      }
+    }
+  },
+  "scores": {
+    "overall": 78,
+    "grade": "B+",
+    "consistency": 82,
+    "contribution": 75,
+    "reliability": 80,
+    "impact": 85,
+    "security": 70,
+    "maintainability": 75,
+    "ambition": 80,
+    "growth": 72
+  },
+  "consistency": {
+    "activeDays": 280,
+    "currentStreakDays": 45,
+    "longestStreakDays": 120,
+    "averageDailyContributions": 6.6
+  },
+  "impact": {
+    "popularRepoCount": 5,
+    "totalStars": 2500
+  },
+  "overallACIDScore": {
+    "architecture": 75,
+    "crossDomain": 80,
+    "innovation": 70,
+    "documentation": 78,
+    "overall": 76
+  },
+  "reposACIDScores": {
+    "coderomm/supergitsight": {
+      "architecture": 85,
+      "crossDomain": 80,
+      "innovation": 75,
+      "documentation": 90,
+      "overall": 83
+    },
+    "coderomm/github-analyzer": {
+      "architecture": 70,
+      "crossDomain": 75,
+      "innovation": 65,
+      "documentation": 70,
+      "overall": 70
+    }
+  },
+  "languageBreakdown": [
+    {
+      "language": "JavaScript",
+      "totalPercentage": 45.5,
+      "totalBytes": 500000,
+      "repos": [
+        {
+          "repoName": "supergitsight",
+          "repoFullName": "coderomm/supergitsight",
+          "bytes": 300000,
+          "contributionPercentage": 60.0
+        },
+        {
+          "repoName": "github-analyzer",
+          "repoFullName": "coderomm/github-analyzer",
+          "bytes": 200000,
+          "contributionPercentage": 40.0
+        }
+      ]
+    },
+    {
+      "language": "TypeScript",
+      "totalPercentage": 30.2,
+      "totalBytes": 332000,
+      "repos": [
+        {
+          "repoName": "supergitsight",
+          "repoFullName": "coderomm/supergitsight",
+          "bytes": 332000,
+          "contributionPercentage": 100.0
+        }
+      ]
+    },
+    {
+      "language": "Python",
+      "totalPercentage": 15.3,
+      "totalBytes": 168000,
+      "repos": [
+        {
+          "repoName": "github-analyzer",
+          "repoFullName": "coderomm/github-analyzer",
+          "bytes": 168000,
+          "contributionPercentage": 100.0
+        }
+      ]
+    },
+    {
+      "language": "Go",
+      "totalPercentage": 9.0,
+      "totalBytes": 99000,
+      "repos": [
+        {
+          "repoName": "github-analyzer",
+          "repoFullName": "coderomm/github-analyzer",
+          "bytes": 99000,
+          "contributionPercentage": 100.0
+        }
+      ]
+    }
+  ],
+  "contributions": [
+    {
+      "date": "2024-01-01T00:00:00Z",
+      "contributionCount": 5
+    },
+    {
+      "date": "2024-01-02T00:00:00Z",
+      "contributionCount": 8
+    }
+  ],
+  "monthlyData": [
+    {
+      "month": "2024-01",
+      "contributions": 150,
+      "repos": 5
+    },
+    {
+      "month": "2024-02",
+      "contributions": 180,
+      "repos": 6
+    }
+  ],
+  "workStyle": {
+    "soloRatio": 0.65,
+    "teamRatio": 0.35,
+    "peakDay": "Tuesday",
+    "peakMonth": "March"
+  },
+  "collaboration": {
+    "totalReposContributedTo": 25,
+    "influentialReposCount": 8,
+    "averageContributionsPerRepo": 12.5
+  },
+  "projectHealth": {
+    "totalProjects": 42,
+    "totalActiveProjects": 35,
+    "totalArchivedProjects": 7,
+    "activeRatio": 0.83
+  },
+  "techStack": {
+    "primaryLanguages": [
+      "JavaScript",
+      "TypeScript",
+      "Python"
+    ],
+    "frameworks": [
+      "React",
+      "Next.js",
+      "Express"
+    ],
+    "tools": [
+      "Docker",
+      "GitHub Actions",
+      "ESLint"
+    ]
+  },
+  "securityInsights": {
+    "ciFailureRate": 0.15,
+    "hasCI": true,
+    "hasTests": true
+  },
+  "percentile": 75,
+  "summary": "Strong profile with consistent contributions and good repository quality. Shows solid growth in multiple languages and active open-source participation.",
+  "lastUpdated": "2025-01-15T10:30:00Z",
+  "cached": true,
+  "refresh": {
+    "canRefresh": true,
+    "availableAt": "2025-01-15T11:30:00Z"
+  }
+}

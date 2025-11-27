@@ -1,0 +1,171 @@
+{
+  "repository": {
+    "name": "supergitsight",
+    "fullName": "coderomm/supergitsight",
+    "description": "Data-driven intelligence for GitHub profiles",
+    "url": "https://github.com/coderomm/supergitsight",
+    "stars": 800,
+    "forks": 120,
+    "watchers": 50,
+    "language": "JavaScript",
+    "createdAt": "2022-01-15T10:00:00Z",
+    "updatedAt": "2024-12-20T15:30:00Z",
+    "isFork": false,
+    "isArchived": false
+  },
+  "acidScore": {
+    "architecture": 85,
+    "crossDomain": 80,
+    "innovation": 75,
+    "documentation": 90,
+    "overall": 83
+  },
+  "breakdown": {
+    "architecture": {
+      "score": 85,
+      "description": "Architecture & Structure - Project organization and technical foundation",
+      "factors": {
+        "structureIndicators": [
+          {
+            "category": "core",
+            "path": "src/core",
+            "type": "directory"
+          },
+          {
+            "category": "boundary",
+            "path": "src/api",
+            "type": "directory"
+          },
+          {
+            "category": "domain",
+            "path": "src/domain",
+            "type": "directory"
+          }
+        ],
+        "buildManifests": [
+          "package.json",
+          "tsconfig.json"
+        ],
+        "lockFiles": [
+          "package-lock.json"
+        ],
+        "hasTests": true,
+        "hasCI": true,
+        "ciFiles": [
+          ".github/workflows/ci.yml"
+        ],
+        "structureScore": 1.6,
+        "buildScore": 1.2,
+        "automationScore": 0.9
+      },
+      "interpretation": "Excellent architecture with well-organized structure, proper build configuration, and comprehensive CI/CD setup."
+    },
+    "crossDomain": {
+      "score": 80,
+      "description": "Cross-Domain - Technology diversity and cross-domain expertise",
+      "factors": {
+        "primaryLanguage": "JavaScript",
+        "languageCount": 3,
+        "languages": [
+          {
+            "name": "JavaScript",
+            "bytes": 50000,
+            "percentage": 65.0
+          },
+          {
+            "name": "TypeScript",
+            "bytes": 20000,
+            "percentage": 26.0
+          },
+          {
+            "name": "CSS",
+            "bytes": 7000,
+            "percentage": 9.0
+          }
+        ],
+        "domainCoverage": [
+          "frontend",
+          "backend"
+        ],
+        "entropyScore": 0.75
+      },
+      "interpretation": "Good cross-domain coverage with JavaScript/TypeScript stack covering both frontend and backend."
+    },
+    "innovation": {
+      "score": 75,
+      "description": "Innovation - Uniqueness, originality, and innovation signals",
+      "factors": {
+        "uniquenessScore": 0.80,
+        "originalityIndicators": [
+          "Unique project structure",
+          "Novel approach to problem-solving"
+        ],
+        "portfolioComparison": {
+          "similarReposInPortfolio": 2,
+          "uniquenessRatio": 0.85
+        }
+      },
+      "interpretation": "Good innovation with unique structure and approach, standing out from other projects in the portfolio."
+    },
+    "documentation": {
+      "score": 90,
+      "description": "Documentation & Readability - Documentation quality and community readiness",
+      "factors": {
+        "readme": {
+          "exists": true,
+          "length": 2500,
+          "hasSections": [
+            "Installation",
+            "Usage",
+            "Contributing",
+            "License"
+          ],
+          "qualityScore": 0.95
+        },
+        "codeComments": {
+          "hasComments": true,
+          "commentRatio": 0.25
+        },
+        "documentationArtifacts": [
+          "README.md",
+          "CONTRIBUTING.md",
+          "docs/",
+          "LICENSE"
+        ],
+        "hasContributingGuidelines": true,
+        "issueResponseRate": 0.85,
+        "issuesRespondedTo": 17,
+        "totalExternalIssues": 20
+      },
+      "interpretation": "Excellent documentation with comprehensive README, contributing guidelines, and high issue response rate (85%)."
+    }
+  },
+  "qualitySignals": {
+    "structureIndicators": 3,
+    "buildManifests": 2,
+    "lockFiles": 1,
+    "hasTests": true,
+    "hasCI": true,
+    "documentationArtifacts": 4,
+    "hasContributingGuidelines": true,
+    "issueResponseRate": 0.85
+  },
+  "interpretation": {
+    "overall": "High-quality repository with excellent documentation, solid architecture, and good cross-domain coverage. Well-maintained with active community engagement.",
+    "strengths": [
+      "Comprehensive documentation (README, CONTRIBUTING, docs/)",
+      "Well-organized code structure",
+      "Active issue response (85% response rate)",
+      "Proper CI/CD setup"
+    ],
+    "areasForImprovement": [
+      "Could expand language diversity further",
+      "Consider adding more test coverage"
+    ]
+  },
+  "portfolioContext": {
+    "portfolioAverageACID": 76,
+    "rankInPortfolio": 1,
+    "isTopRepository": true
+  }
+}

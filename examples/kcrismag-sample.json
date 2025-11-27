@@ -1,0 +1,143 @@
+{
+  "overall": 78,
+  "grade": "B+",
+  "breakdown": {
+    "consistency": {
+      "score": 82,
+      "weight": 0.18,
+      "description": "Reliability - Sustained, continuous effort over time",
+      "category": "SOFT",
+      "factors": {
+        "activeDays": 280,
+        "currentStreakDays": 45,
+        "longestStreakDays": 120,
+        "averageDailyContributions": 6.6,
+        "activityRate": 0.77,
+        "recencyScore": 85
+      },
+      "interpretation": "Strong consistency with a 45-day current streak and 280 active days in the past year."
+    },
+    "contribution": {
+      "score": 75,
+      "weight": 0.12,
+      "description": "Passion - Meaningful participation in shared work and open-source",
+      "category": "SOFT",
+      "factors": {
+        "reposContributedTo": 25,
+        "influentialReposCount": 8,
+        "totalStars": 2500,
+        "maintainedRatio": 0.75,
+        "diversityScore": 80,
+        "recencyScore": 70
+      },
+      "interpretation": "Good open-source participation with contributions to 25 repositories, including 8 influential projects."
+    },
+    "reliability": {
+      "score": 80,
+      "weight": 0.12,
+      "description": "Efficiency - Producing reliable and maintainable code",
+      "category": "HARD",
+      "factors": {
+        "consistencyScore": 82,
+        "activeProjectRatio": 0.83,
+        "streakBonus": 10,
+        "popularRepoPresence": true
+      },
+      "interpretation": "High reliability demonstrated through consistent activity and active project maintenance."
+    },
+    "impact": {
+      "score": 85,
+      "weight": 0.18,
+      "description": "Impact/Influence - Adoption, recognition, and community effect",
+      "category": "SOFT",
+      "factors": {
+        "totalStars": 2500,
+        "popularRepoCount": 5,
+        "topRepoStars": 800,
+        "recentActivityRatio": 0.85,
+        "contributionVolume": 1850
+      },
+      "interpretation": "Strong impact with 2.5K total stars across 5 popular repositories (50+ stars each)."
+    },
+    "security": {
+      "score": 70,
+      "weight": 0.10,
+      "description": "Robustness - Secure and robust code practices",
+      "category": "HARD",
+      "factors": {
+        "ciFailureRate": 0.15,
+        "ciHygieneScore": 85,
+        "documentationScore": 78,
+        "architectureScore": 75,
+        "activeMaintenance": 0.83
+      },
+      "interpretation": "Good security practices with low CI failure rate and solid documentation."
+    },
+    "maintainability": {
+      "score": 75,
+      "weight": 0.10,
+      "description": "Cost - Clean, readable, and maintainable code",
+      "category": "HARD",
+      "factors": {
+        "documentationScore": 78,
+        "architectureScore": 75,
+        "activeProjectRatio": 0.83
+      },
+      "interpretation": "Good maintainability with solid documentation and architecture practices."
+    },
+    "ambition": {
+      "score": 80,
+      "weight": 0.10,
+      "description": "Builder Mindset - Originality, cross-domain depth, and creativity",
+      "category": "BUILDER",
+      "factors": {
+        "overallACID": 76,
+        "innovationScore": 70,
+        "crossDomainScore": 80,
+        "architectureScore": 75,
+        "documentationScore": 78
+      },
+      "interpretation": "Strong builder mindset with cross-domain expertise and innovative projects."
+    },
+    "growth": {
+      "score": 72,
+      "weight": 0.10,
+      "description": "Learning - Expansion into new tools, languages, and problem spaces",
+      "category": "SOFT",
+      "factors": {
+        "languageCount": 4,
+        "diversityScore": 75,
+        "balanceBonus": 10,
+        "repoCountScore": 70,
+        "recentGrowthScore": 75,
+        "accountAgeYears": 3
+      },
+      "interpretation": "Good growth with 4 languages and balanced usage across technologies."
+    }
+  },
+  "weightedCalculation": {
+    "consistency": 14.76,
+    "contribution": 9.0,
+    "reliability": 9.6,
+    "impact": 15.3,
+    "security": 7.0,
+    "maintainability": 7.5,
+    "ambition": 8.0,
+    "growth": 7.2,
+    "total": 78.26
+  },
+  "interpretation": {
+    "overall": "Strong profile with consistent contributions and good repository quality. Shows solid growth in multiple languages and active open-source participation.",
+    "strengths": [
+      "Exceptional consistency (280/365 active days)",
+      "5 popular projects (50+ stars each)",
+      "Currently very active (45-day streak)",
+      "Versatile (4 languages)"
+    ],
+    "areasForImprovement": [
+      "Increase open-source contributions to more influential repositories",
+      "Improve CI/CD practices to reduce failure rate",
+      "Expand language diversity further"
+    ]
+  }
+}

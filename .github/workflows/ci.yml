@@ -1,0 +1,44 @@
+name: Documentation CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint:
+    name: Lint Documentation
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Check Markdown files
+        uses: DavidAnson/markdownlint-cli2-action@v15
+        with:
+          globs: |
+            **/*.md
+            !node_modules/**/*.md
+      
+      - name: Check for broken links
+        uses: lycheeverse/lychee-action@v1.9.0
+        with:
+          args: --accept 200,403,429 --timeout 20
+          fail: true
+
+  validate:
+    name: Validate Structure
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Check required files exist
+        run: |
+          test -f README.md || exit 1
+          test -f CONTRIBUTING.md || exit 1
+          test -f LICENSE || exit 1
+          test -d docs || exit 1
+          test -d examples || exit 1
+          echo "All required files and directories exist"
